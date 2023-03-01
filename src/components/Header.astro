@@ -1,0 +1,52 @@
+---
+import logo from '../images/logo.png'
+---
+
+<header>
+  <div class="nav flex">
+    <div class="nav-left">
+      <a href="/"><img src={logo} alt=""></a>
+    </div>
+    <div class="nav-right">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/blog">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<style>
+  header {
+    background-color: pink;
+  }
+
+  .nav {
+    margin: auto;
+    max-width: 1600px;
+    padding: 20px;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav img {
+    height: 40px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+   display: inline;
+   margin-left: 20px;
+  }
+  
+</style>

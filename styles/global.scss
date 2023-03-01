@@ -1,0 +1,52 @@
+@import url('');
+
+:root {
+	--color-primary: aliceblue;
+	--color-secondary: steelblue;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media screen and (min-width:0px) {
+  body {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		background-color: var(--color-primary);
+	}
+
+	h1 {
+		color :var(--color-secondary);
+	}
+
+	h2 {
+		color: green;
+	}
+}
+
+/* mobile phones */
+@media screen and (min-width:340px) {
+
+}
+
+/* tablet */
+@media screen and (min-width:940px) {
+
+}
+
+/* small desktop */
+@media screen and (min-width:1200px) {
+
+}
+
+/* large desktop */
+@media screen and (min-width:1800px) {
+
+}
